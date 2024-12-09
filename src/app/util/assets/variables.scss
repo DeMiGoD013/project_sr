@@ -1,0 +1,50 @@
+    // Primary Colors
+    :root{
+        --primary-color: #007bff; // Blue (Primary Brand Color)
+        --primary-light: #85d7ff; // Light Blue
+        --primary-dark: #0056b3;  // Dark Blue
+        
+        // Secondary Colors
+        --secondary-color: #6c757d; // Gray (Secondary Accent Color)
+        --secondary-light: #adb5bd; // Light Gray
+        --secondary-dark: #495057;  // Dark Gray
+        
+        // Background Colors
+        --background-light: #f8f9fa; // Light Background
+        --background-dark: #343a40;  // Dark Background
+        
+        // Text Colors
+        --text-primary: #212529; // Dark Text
+        --text-secondary: #6c757d; // Muted Text
+        --text-light: #ffffff;    // Light Text (on dark backgrounds)
+        
+        // Success Colors
+        --success-color: #28a745; // Green
+        --success-light: #71dc8e;
+        --success-dark: #1c7430;
+        
+        // Warning Colors
+        --warning-color: #ffc107; // Yellow
+        --warning-light: #ffe58a;
+        --warning-dark: #cc9900;
+        
+        // Danger Colors
+        --danger-color: #dc3545; // Red
+        --danger-light: #f8b4b4;
+        --danger-dark: #a71d2a;
+        
+        // Info Colors
+        --info-color: #17a2b8; // Teal
+        --info-light: #6ec7d6;
+        --info-dark: #0c6a7a;
+        
+        // Neutral Colors
+        --white: #ffffff;
+        --black: #000000;
+        
+        // Utility Colors
+        --border-color: #dee2e6; // Light Border
+        --shadow-color: rgba(0, 0, 0, 0.1); // Subtle Shadow
+        --link-color: --primary-color; // Link Color
+        --link-hover-color: --primary-dark; // Link Hover Color
+    }

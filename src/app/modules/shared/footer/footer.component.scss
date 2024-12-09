@@ -1,0 +1,37 @@
+
+.footer {
+    background-color: #343a40;
+    color: #adb5bd;
+  
+    .footer-heading {
+      font-size: 1.25rem;
+      color: #ffffff;
+      margin-bottom: 15px;
+    }
+  
+    .footer-link {
+      color: #adb5bd;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 10px;
+  
+      &:hover {
+        color: #ffffff;
+        text-decoration: underline;
+      }
+    }
+  
+    p {
+      margin-bottom: 0.5rem;
+    }
+  
+    @media (max-width: 768px) {
+      .footer-heading {
+        text-align: center;
+      }
+  
+      .footer-link {
+        text-align: center;
+      }
+    }
+  }
